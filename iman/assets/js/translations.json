@@ -1,0 +1,176 @@
+{
+  "fr": {
+    "hero_title": "Bienvenue dans l'univers de l'illusion",
+    "hero_text": "Découvrez une exposition immersive où l'art et la technologie se rencontrent.",
+    "cta_button": "Voir le programme",
+    "menu_home": "Accueil",
+    "menu_program": "Programme",
+    "menu_team": "Équipe",
+    "program_title": "Œuvres et Artistes mis en avant",
+    "artistes": {
+      "hyperrealism": {
+        "title": "Hyperréalisme",
+        "year": "2026",
+        "description": "Des artistes comme Patrick Hughes et Raphaella Spence qui travaillent sur le trompe-l'œil avec des effets sur la profondeur. Installation des œuvres pour les présenter aux visiteurs."
+      },
+      "digital_art": {
+        "title": "Art Numérique",
+        "year": "2026",
+        "description": "Expériences visuelles où le digital et le réel se confondent pour créer une illusion très convaincante."
+      },
+      "street_art": {
+        "title": "Street Art et Murales 3D",
+        "year": "2026",
+        "description": "Fresque murale 3D monumentale créant des illusions optiques spectaculaires qui transforment l'architecture urbaine en œuvre d'art interactive."
+      }
+    },
+    "events": {
+      "optical_workshop": {
+        "title": "Atelier d'Illusions Optiques",
+        "time": "Tous les mardis - 14h à 16h",
+        "description": "Apprenez à créer vos propres illusions optiques numériques et découvrez les principes mathématiques derrière les trompe-l'œil."
+      },
+      "augmented_reality": {
+        "title": "Réalité Augmentée",
+        "time": "Tous les jeudis - 15h à 17h",
+        "description": "Initiez-vous à la réalité augmentée et créez des œuvres qui transcendent la frontière entre le réel et le virtuel."
+      },
+      "interactive_animations": {
+        "title": "Animations Interactives",
+        "time": "Tous les samedis - 10h à 12h",
+        "description": "Apprenez à programmer des animations interactives qui réagissent aux mouvements et aux gestes des spectateurs."
+      },
+      "immersive_digital_art": {
+        "title": "Art Numérique Immersif",
+        "time": "Premier dimanche du mois - 14h à 17h",
+        "description": "Plongez dans l'art numérique immersif et découvrez comment programmer des installations qui altèrent la perception de l'espace."
+      }
+    },
+    "team_title": "Notre Équipe",
+    "team_description": "Découvrez les passionnés derrière ce projet.",
+    "team_members": [
+      {
+        "name": "Reda SADAOUI",
+        "role": "Chef de projet",
+        "description": "Reda est le pilote de notre équipe, garantissant que chaque détail du projet est parfaitement exécuté."
+      },
+      {
+        "name": "Aboubakry SY",
+        "role": "Développeur web et designer",
+        "description": "Aboubakry allie créativité et technique pour donner vie à notre site web."
+      },
+      {
+        "name": "Tristan COLLEN",
+        "role": "Développeur web",
+        "description": "Tristan collen do brazil est un expert en développement, garantissant un site fluide et fonctionnel."
+      },
+      {
+        "name": "Jordan GHAMBA-YIMGA",
+        "role": "Responsable contenu du site",
+        "description": "Jordan s'assure que chaque mot et chaque image racontent une histoire captivante."
+      },
+      {
+        "name": "Naby DIAME",
+        "role": "Responsable interviews et compte-rendus",
+        "description": "Naby capture les voix et les idées qui inspirent notre projet."
+      },
+      {
+        "name": "Iman CHIQUITO",
+        "role": "Responsable interviews et compte-rendus",
+        "description": "Iman donne vie aux récits et aux témoignages qui enrichissent notre exposition."
+      },
+      {
+        "name": "Ouways VELLORE-SHERIEF",
+        "role": "Responsable communication",
+        "description": "Ouways est la voix de notre projet, connectant notre équipe au public."
+      }
+    ]
+  },
+  "en": {
+    "hero_title": "Welcome to the world of illusion",
+    "hero_text": "Discover an immersive exhibition where art and technology meet.",
+    "cta_button": "View the program",
+    "menu_home": "Home",
+    "menu_program": "Program",
+    "menu_team": "Team",
+    "program_title": "Featured Works and Artists",
+    "artistes": {
+      "hyperrealism": {
+        "title": "Hyperrealism",
+        "year": "2026",
+        "description": "Artists such as Patrick Hughes and Raphaella Spence working on trompe-l'œil with depth effects. Installation of works to present to visitors."
+      },
+      "digital_art": {
+        "title": "Digital Art",
+        "year": "2026",
+        "description": "Visual experiences where digital and real blend to create a very convincing illusion."
+      },
+      "street_art": {
+        "title": "Street Art and 3D Murals",
+        "year": "2026",
+        "description": "Monumental 3D mural creating spectacular optical illusions that transform urban architecture into interactive works of art."
+      }
+    },
+    "events": {
+      "optical_workshop": {
+        "title": "Optical Illusion Workshop",
+        "time": "Every Tuesday - 2pm to 4pm",
+        "description": "Learn to create your own digital optical illusions and discover the mathematical principles behind trompe-l'œil."
+      },
+      "augmented_reality": {
+        "title": "Augmented Reality",
+        "time": "Every Thursday - 3pm to 5pm",
+        "description": "Get started with augmented reality and create works that transcend the boundary between the real and the virtual."
+      },
+      "interactive_animations": {
+        "title": "Interactive Animations",
+        "time": "Every Saturday - 10am to 12pm",
+        "description": "Learn how to program interactive animations that respond to movements and gestures from the spectators."
+      },
+      "immersive_digital_art": {
+        "title": "Immersive Digital Art",
+        "time": "First Sunday of the month - 2pm to 5pm",
+        "description": "Dive into immersive digital art and discover how to program installations that alter the perception of space."
+      }
+    },
+    "team_title": "Our Team",
+    "team_description": "Meet the passionate individuals behind this project.",
+    "team_members": [
+      {
+        "name": "Reda SADAOUI",
+        "role": "Project Manager",
+        "description": "Reda is the leader of our team, ensuring every detail of the project is perfectly executed."
+      },
+      {
+        "name": "Aboubakry SY",
+        "role": "Web Developer and Designer",
+        "description": "Aboubakry combines creativity and technical skills to bring our website to life."
+      },
+      {
+        "name": "Tristan COLLEN",
+        "role": "Web Developer",
+        "description": "Tristan Colen do Brazil is a development expert, ensuring a smooth and functional website."
+      },
+      {
+        "name": "Jordan GHAMBA-YIMGA",
+        "role": "Website Content Manager",
+        "description": "Jordan ensures every word and image tells a captivating story."
+      },
+      {
+        "name": "Naby DIAME",
+        "role": "Interviews and Reports Manager",
+        "description": "Naby captures the voices and ideas that inspire our project."
+      },
+      {
+        "name": "Iman CHIQUITO",
+        "role": "Interviews and Reports Manager",
+        "description": "Iman brings life to the stories and testimonies that enrich our exhibition."
+      },
+      {
+        "name": "Ouways VELLORE-SHERIEF",
+        "role": "Communication Manager",
+        "description": "Ouways is the voice of our project, connecting our team with the public."
+      }
+    ]
+  }
+}

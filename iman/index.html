@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trompe-l'œil 2026</title>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+    />
+  </head>
+  <body>
+    <!-- En-tête -->
+    <header>
+      <a href="#">Trompe-l'œil 2026</a>
+      <nav>
+        <a href="#hero">Accueil</a>
+        <a href="#programme">Programme</a>
+        <a href="#equipe">Équipe</a>
+        <a href="#accessibilite">Accessibilité</a>
+        <button id="language-toggle" class="language-toggle-btn">
+          🌍 Change Language
+        </button>
+      </nav>
+      <div class="hamburger" onclick="toggleMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </header>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#hero" onclick="toggleMenu()">Accueil</a>
+      <a href="#programme" onclick="toggleMenu()">Programme</a>
+      <a href="#equipe" onclick="toggleMenu()">Équipe</a>
+      <a href="#accessibilite" onclick="toggleMenu()">Accessibilité</a>
+    </div>
+
+    <!-- Section Hero -->
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Bienvenue dans l'univers de l'illusion</h2>
+        <p>
+          Découvrez une exposition immersive où l'art et la technologie se
+          rencontrent.
+        </p>
+        <a href="#programme" class="cta-button">Voir le programme</a>
+      </div>
+    </section>
+
+    <!-- Section Programme -->
+    <section id="programme">
+      <div class="artistes-container">
+        <h2>Œuvres et Artistes mis en avant</h2>
+        <div class="artistes">
+          <div class="artiste">
+            <img src="assets/images/hyperalisme.jpg" alt="Œuvre d'art" />
+            <div class="container-art">
+              <div class="info">
+                <h3 class="text-2xl font-bold">Hyperréalisme</h3>
+                <span class="text-primary font-semibold">2026</span>
+              </div>
+              <p class="description">
+                Des artistes comme Patrick Hughes et Raphaella Spence qui
+                travaillent sur le trompe-l'œil avec des effets sur la
+                profondeur. Installation des œuvres pour les présenter aux
+                visiteurs.
+              </p>
+            </div>
+          </div>
+          <div class="artiste">
+            <img src="assets/images/art_numerique.jpg" alt="Œuvre d'art" />
+            <div class="container-art">
+              <div class="info">
+                <h3 class="text-2xl font-bold">Art Numérique</h3>
+                <span class="text-primary font-semibold">2026</span>
+              </div>
+              <p class="description">
+                Expériences visuelles où le digital et le réel se confondent
+                pour créer une illusion très convaincante.
+              </p>
+            </div>
+          </div>
+          <div class="artiste">
+            <img src="assets/images/street_art.jpg" alt="Œuvre d'art" />
+            <div class="container-art">
+              <div class="info">
+                <h3 class="text-2xl font-bold">Street Art et Murales 3D</h3>
+                <span class="text-primary font-semibold">2026</span>
+              </div>
+              <p class="description">
+                Fresque murale 3D monumentale créant des illusions optiques
+                spectaculaires qui transforment l'architecture urbaine en œuvre
+                d'art interactive.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="event-container">
+          <h2>Événements à venir</h2>
+          <div class="events-content">
+            <div class="event">
+              <h3>Atelier d'Illusions Optiques</h3>
+              <span>Tous les mardis - 14h à 16h</span>
+              <p>
+                Apprenez à créer vos propres illusions optiques numériques et
+                découvrez les principes mathématiques derrière les trompe-l'œil.
+              </p>
+            </div>
+            <div class="event">
+              <h3>Réalité Augmentée</h3>
+              <span>Tous les jeudis - 15h à 17h</span>
+              <p>
+                Initiez-vous à la réalité augmentée et créez des œuvres qui
+                transcendent la frontière entre le réel et le virtuel.
+              </p>
+            </div>
+            <div class="event">
+              <h3>Animations Interactives</h3>
+              <span> Tous les samedis - 10h à 12h </span>
+              <p>
+                Apprenez à programmer des animations interactives qui réagissent
+                aux mouvements et aux gestes des spectateurs.
+              </p>
+            </div>
+            <div class="event">
+              <h3>Art Numérique Immersif</h3>
+              <span> Premier dimanche du mois - 14h à 17h </span>
+              <p>
+                Plongez dans l'art numérique immersif et découvrez comment
+                programmer des installations qui altèrent la perception de
+                l'espace.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Équipe -->
+    <section id="equipe">
+      <h2>Notre Équipe</h2>
+      <p class="discover">Découvrez les passionnés derrière ce projet.</p>
+      <div class="team-grid">
+        <!-- Membre 1 : SADAOUI Reda -->
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="assets/images/reda.jpg" alt="Reda SADAOUI" />
+          </div>
+          <div class="member-info">
+            <h3>Reda SADAOUI</h3>
+            <p class="role">Chef de projet</p>
+            <p class="description">
+              Reda est le pilote de notre équipe, garantissant que chaque détail
+              du projet est parfaitement exécuté.
+            </p>
+          </div>
+        </div>
+
+        <!-- Membre 2 : SY Aboubakry -->
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="assets/images/aboubakry.webp" alt="Aboubakry SY" />
+          </div>
+          <div class="member-info">
+            <h3>Aboubakry SY</h3>
+            <p class="role">Développeur web et designer</p>
+            <p class="description">
+              Aboubakry allie créativité et technique pour donner vie à notre
+              site web.
+            </p>
+          </div>
+        </div>
+
+        <!-- Membre 3 : COLLEN Tristan -->
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="assets/images/tristan.jpg" alt="Tristan COLLEN" />
+          </div>
+          <div class="member-info">
+            <h3>Tristan COLLEN</h3>
+            <p class="role">Développeur web</p>
+            <p class="description">
+              Tristan collen do brazil est un expert en développement,
+              garantissant un site fluide et fonctionnel.
+            </p>
+          </div>
+        </div>
+
+        <!-- Membre 4 : GHAMBA-YIMGA Jordan -->
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="assets/images/jordan.jpg" alt="Jordan GHAMBA-YIMGA" />
+          </div>
+          <div class="member-info">
+            <h3>Jordan GHAMBA-YIMGA</h3>
+            <p class="role">Responsable contenu du site</p>
+            <p class="description">
+              Jordan s'assure que chaque mot et chaque image racontent une
+              histoire captivante.
+            </p>
+          </div>
+        </div>
+
+        <!-- Membre 5 : DIAME Naby -->
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="assets/images/naby.webp" alt="Naby DIAME" />
+          </div>
+          <div class="member-info">
+            <h3>Naby DIAME</h3>
+            <p class="role">Responsable interviews et compte-rendus</p>
+            <p class="description">
+              Naby capture les voix et les idées qui inspirent notre projet.
+            </p>
+          </div>
+        </div>
+
+        <!-- Membre 6 : CHIQUITO Iman -->
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="assets/images/iman.jpg" alt="Iman CHUIQUITO" />
+          </div>
+          <div class="member-info">
+            <h3>Iman CHIQUITO</h3>
+            <p class="role">Responsable interviews et compte-rendus</p>
+            <p class="description">
+              Iman donne vie aux récits et aux témoignages qui enrichissent
+              notre exposition.
+            </p>
+          </div>
+        </div>
+
+        <!-- Membre 7 : VELLORE-SHERIEF Ouways -->
+        <div class="team-member">
+          <div class="member-photo">
+            <img src="assets/images/ouways.jpg" alt="Ouways VELLORE-SHERIEF" />
+          </div>
+          <div class="member-info">
+            <h3>Ouways VELLORE-SHERIEF</h3>
+            <p class="role">Responsable communication</p>
+            <p class="description">
+              Ouways est la voix de notre projet, connectant notre équipe au
+              public.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="accessibilite">
+      <h2>Accessibilité pour tous</h2>
+      <div class="container-acces">
+        <div class="content-acces">
+          <div class="container-img">
+            <i class="ri-wheelchair-line"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">Accès fauteuil roulant</h3>
+          <p class="text-gray-600">
+            Parcours adaptés et rampes d'accès dans tout le musée
+          </p>
+        </div>
+        <div class="content-acces">
+          <div class="container-img">
+            <i class="ri-customer-service-fill"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">Assistance auditive</h3>
+          <p class="text-gray-600">
+            Systèmes d'amplification et boucles magnétiques
+          </p>
+        </div>
+        <div class="content-acces">
+          <div class="container-img">
+            <i class="ri-guide-fill"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">Guide en braille</h3>
+          <p class="text-gray-600">Documentation et signalétique en braille</p>
+        </div>
+        <div class="content-acces">
+          <div class="container-img">
+            <i class="ri-user-heart-line"></i>
+          </div>
+          <h3 class="text-xl font-semibold mb-4">
+            Accompagnement personnalisé
+          </h3>
+          <p class="text-gray-600">
+            Personnel formé pour l'assistance individuelle
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+      <p>&copy; 2026 Trompe-l'œil. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
